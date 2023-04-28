@@ -819,3 +819,57 @@ body {
 .content__info_text p {
     margin: 10px 0;
 }
+
+/* spec page */
+.article__items {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	margin-top: 30px;
+}
+
+.article__item {
+	width: 31%;
+	padding: 32px;
+	min-height: 150px;
+	background-color: #C11E73;
+	color: #fff;
+	border-radius: 20px;
+	position: relative;
+	margin-bottom: 25px;
+}
+
+.article__item .mask__link {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	text-decoration: none;
+	z-index: 5;
+}
+
+.article__item_big-text {
+	font-size: 20px;
+	margin-bottom: 20px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.article__item_text {
+	font-size: 18px;
+	margin-bottom: 15px;
+    color: #fff;
+}
+
+.article__item_link {
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	z-index: 10;
+}
+
+/* end spec page  */

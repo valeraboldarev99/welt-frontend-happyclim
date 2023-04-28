@@ -278,6 +278,25 @@
     .content__block {
         padding: 80px 0;
     }
+
+    /* spec page */
+    .article__item {
+        padding: 25px;
+    }
+
+    .article__item_big-text {
+        font-size: 18px;
+    }
+
+    .article__item_text {
+        font-size: 16px;
+    }
+
+    .article__item_link {
+        font-size: 16px;
+    }
+
+    /* end spec page  */
 }
 
 @media screen and (max-width:1300px) {
@@ -673,6 +692,13 @@
     .footer__bottom_link:last-child {
         margin-right: 0;
     }
+
+    /* spec page */
+    .article__item {
+        width: 47%;
+        padding: 20px;
+    }
+    /* end spec page  */
 }
 
 @media screen and (max-width:780px) {
@@ -1159,4 +1185,10 @@
 		background: url('../img/humburger_menu_hover.png') center center no-repeat;
 		background-size: 28px;
 	}
+    /* spec page */
+    .article__item {
+        width: 100%;
+        padding: 20px;
+    }
+    /* end spec page  */
 }
