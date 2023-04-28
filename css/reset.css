@@ -4,16 +4,15 @@
 
 html {
 	height: 100%;
-	font-size: 18px;
-	line-height: 1.4;
-	color: rgba(55, 55, 55, 1);
-	-ms-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #000;
 }
 
 body {
 	margin: 0;
 	height: 100%;
+	font-size: 16px;
 }
 
 * {
@@ -26,6 +25,12 @@ body {
 	box-sizing: border-box;
 }
 
+p {
+	margin: 0 0 18px 0;
+	color: #000;
+	font-size: 18px;
+}
+
 h1,
 h2,
 h3,
@@ -33,20 +38,56 @@ h4,
 h5,
 h6 {
 	margin: 0;
-	font-size: 18px;
-	font-weight: 400;
-	line-height: 1.4;
-	color: rgba(55, 55, 55, 1);
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 75px;
+    line-height: 120%;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+h2 {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 68px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+h3 {
+	margin-bottom: 35px;
+	text-transform: uppercase;
+	color: #000;
+	font-weight: bold;
+	font-size: 35px;
+}
+
+h4 {
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0;
+	color: #000;
+}
+
+h5 {
+	font-size: 30px;
+	margin: 0 0 0 0;
+	color: #000;
 }
 
 ul,
 ol {
-	margin: 0;
+	font-size: 30px;
+	margin: 0 0 30px 70px;
 	padding: 0;
+    color: #000;
 }
 
-ul {
-	list-style: none;
+li::marker {
+	color: #000;
 }
 
 table {
@@ -54,6 +95,21 @@ table {
 	padding: 0;
 	margin: 0;
 	border-collapse: collapse;
+	text-align: left;
+	background: #fff;
+}
+
+th {
+    background: #C11E73;
+    color: #fff;
+}
+
+th,
+td {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+	word-wrap: break-word;
 }
 
 div {
@@ -61,10 +117,6 @@ div {
 }
 
 img {
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
 	max-width: 100%;
 	height: auto;
 	border-style: none;
@@ -79,18 +131,21 @@ figure {
 	margin: 0;
 }
 
+a {
+	color: #000;
+}
+
 a,
 a:hover,
 a:active,
 a:visited {
 	text-decoration: none;
 	outline: none;
-	background-color: transparent;
-	-webkit-text-decoration-skip: objects;
 }
 
 a:hover {
 	text-decoration: none;
+	color: #930a51;
 }
 
 i,
@@ -125,14 +180,10 @@ hr {
 
 pre,
 code {
-	font-family: monospace, monospace;
+	font-family: monospace;
 	font-size: 18px;
 	line-height: 1.4;
 	overflow: hidden;
-	white-space: -moz-pre-wrap;
-	white-space:   -o-pre-wrap;
-	white-space: -pre-wrap;
-	white-space:      pre-wrap;
 	word-wrap: break-word;
 	tab-size: 4;
 }
@@ -183,7 +234,7 @@ blockquote ol:first-child {
 blockquote footer,
 blockquote small {
 	display: block;
-	font-size: 80%;
+	font-size: 60%;
 	line-height: 1.4;
 }
 
@@ -207,7 +258,7 @@ dfn {
 
 mark {
 	background-color: #fff;
-	color: rgba(55, 55, 55, 1);
+	color: #373737;
 }
 
 small {
