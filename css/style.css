@@ -11,12 +11,6 @@ body {
 	font-weight: 500;
 }
 
-.page__header {
-    min-height: 100vh;
-	display: flex;
-	flex-direction: column;
-}
-
 .wrapper {
 	width: 1600px;
 	margin: 0 auto;
@@ -810,4 +804,18 @@ body {
     text-align: center;
     margin: 40px auto;
     display: block;
+}
+
+.content__block {
+    padding: 100px 0;
+}
+
+.content__info_text {
+    border-top: 1px solid #000;
+    padding: 20px 0;
+    margin: 40px 0;
+}
+
+.content__info_text p {
+    margin: 10px 0;
 }

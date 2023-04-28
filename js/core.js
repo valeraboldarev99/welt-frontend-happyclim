@@ -15,7 +15,7 @@ $(document).ready(function () {
 				$('.sidebar-open').click(function() {
 					self.open();
 				});
-				$('.sidebar-close, .sidebar-overlay').click(function() {
+				$('.sidebar-close, .sidebar-overlay, .sidebar__menu_item').click(function() {
 					self.close();
 				});
 			},

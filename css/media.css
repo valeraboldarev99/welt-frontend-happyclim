@@ -3,6 +3,14 @@
         font-size: 16px;
 	    margin: 0 0 16px 0;
     }
+
+    ul,
+    ol {
+        font-size: 16px;
+        margin: 0 0 16px 50px;
+        padding: 0;
+        color: #000;
+    }
     
     h1 {
         font-size: 60px;
@@ -266,12 +274,24 @@
         font-size: 16px;
         margin-right: 40px;
     }
+
+    .content__block {
+        padding: 80px 0;
+    }
 }
 
 @media screen and (max-width:1300px) {
     p {
         font-size: 14px;
 	    margin: 0 0 14px 0;
+    }
+
+    ul,
+    ol {
+        font-size: 14px;
+        margin: 0 0 14px 40px;
+        padding: 0;
+        color: #000;
     }
     
     h1 {
@@ -659,6 +679,14 @@
     p {
         font-size: 16px;
 	    margin: 0 0 16px 0;
+    }
+
+    ul,
+    ol {
+        font-size: 16px;
+        margin: 0 0 16px 30px;
+        padding: 0;
+        color: #000;
     }
     
     h1 {
