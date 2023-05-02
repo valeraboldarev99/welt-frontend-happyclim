@@ -297,6 +297,12 @@
     }
 
     /* end spec page  */
+    /* article page  */
+    .articles__btn {
+        padding: 15px;
+        font-size: 15px;
+    }
+    /* end article page  */
 }
 
 @media screen and (max-width:1300px) {
@@ -699,6 +705,46 @@
         padding: 20px;
     }
     /* end spec page  */
+    /* article page  */
+    .articles__header {
+        padding: 70px 15px 70px 15px;
+    }
+
+    .articles__header h1 {
+        font-size: 40px;
+    }
+
+    .articles__header .writers {
+        font-size: 20px;
+    }
+
+    .articles__main_side {
+        width: 37%;
+        padding: 15px;
+    }
+
+    .articles__main_content {
+        width: 60%;
+        padding: 15px;
+    }
+
+    .articles__book_block {
+        margin: 0 auto 25px auto;
+    }
+
+    .articles__book_block img {
+        max-width: 55%;
+    }
+
+    .articles__btn {
+        padding: 10px;
+        font-size: 13px;
+    }
+
+    .border-line {
+        margin: 10px 0;
+    }
+    /* end article page  */
 }
 
 @media screen and (max-width:780px) {
@@ -1191,4 +1237,63 @@
         padding: 20px;
     }
     /* end spec page  */
+    /* article page  */
+    .articles__page {
+        margin-bottom: 40px;
+    }
+
+    .articles__page h3 {
+        font-size: 24px;
+    }
+
+    .articles__page h5 {
+        font-size: 16px;
+    }
+
+    .articles__header {
+        padding: 50px 15px 50px 15px;
+        margin-bottom: 32px;
+    }
+
+    .articles__header h1 {
+        font-size: 32px;
+    }
+
+    .articles__header .writers {
+        font-size: 16px;
+    }
+    
+    .articles__main {
+        flex-wrap: wrap;
+    }
+
+    .articles__main_side {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .articles__main_content {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .articles__book_block {
+        margin: 0 auto 20px auto;
+    }
+
+    .articles__book_block img {
+        max-width: 50%;
+    }
+
+    .articles__btn {
+        padding: 10px;
+        font-size: 12px;
+        width: 70%;
+    }
+
+    .border-line {
+        margin: 10px 0;
+    }
+
+    /* end article page  */
 }

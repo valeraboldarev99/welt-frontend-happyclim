@@ -873,3 +873,112 @@ body {
 }
 
 /* end spec page  */
+/* article page  */
+.articles__page {
+	margin-bottom: 50px;
+}
+
+.articles__page h3 {
+	font-size: 18px;
+	margin-bottom: 10px;
+	font-weight: 700;
+}
+
+.articles__page h5 {
+	font-size: 18px;
+	margin-bottom: 10px;
+	font-weight: 700;
+}
+
+.articles__header {
+	padding: 100px 15px 100px 15px;
+	background: url('../img/wave-pattern-light.svg') center center no-repeat;
+    background-size: cover;
+	background-color: #21325b;
+	/* background-color: #C11E73; */
+	text-align: center;
+	color: #fff;
+	font-weight: 700;
+	margin-bottom: 40px;
+}
+
+.articles__header h1 {
+	font-size: 48px;
+    font-weight: 700;
+}
+
+.articles__header .writers {
+	font-size: 22px;
+    color: #fff;
+}
+
+.articles__main {
+	display: flex;
+	justify-content: space-between;
+}
+.articles__main p {
+	color: #000;
+}
+
+.articles__main_side {
+	width: 30%;
+	background: #fff;
+	border-radius: 8px;
+	margin-top: 0px;
+	box-shadow: 0 1px 2px 0 rgb(140, 152, 164);
+	padding: 30px;
+	font-size: 14px;
+}
+
+.articles__main_content {
+	width: 65%;
+	padding: 15px;
+}
+
+.articles__book_block {
+	text-align: center;
+	width: 90%;
+	margin: 0 auto 35px auto;
+}
+
+.articles__book_block img {
+	max-width: 65%;
+	height: auto;
+	margin: 0 auto 20px auto;
+}
+
+.articles__btn {
+    padding: 15px;
+    font-size: 15px;
+    margin: 7px auto;
+    width: 80%;
+}
+
+.key_words {
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+
+.key_words span {
+	color: #fff;
+	background-color: #C11E73;
+	padding: 3px 9px;
+	margin: 3px 3px;
+	border-radius: 5px;
+}
+
+.key_words span:hover {
+	color: #fff;
+	background-color: #930a51;
+	cursor: pointer;
+}
+
+.border-line {
+	width: 100%;
+	height: 1px;
+	background: #aaa;
+	margin: 20px 0;
+}
+
+/* end article page  */
