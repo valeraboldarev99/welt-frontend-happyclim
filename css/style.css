@@ -982,3 +982,49 @@ body {
 }
 
 /* end article page  */
+/* cookie */
+.cookie__note {
+    display: none;
+    position: fixed;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 35px;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.4);
+    z-index: 9999;
+}
+
+.cookie__note.show {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cookie__note p {
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+}
+
+.cookie__btns {
+    width: 60%;
+    margin: 25px auto 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cookie__btn {
+    padding: 15px;
+    font-size: 15px;
+    width: 30%;
+    outline: none;
+    border: none;
+}
+
+.cookie__btn:last-child {
+    margin-right: 0;
+}
+/* end cookie */
